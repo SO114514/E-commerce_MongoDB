@@ -13,8 +13,16 @@
     "street1":"string",
     "street2":"string",
     "city":"string",
-    "Province":"string",
+    "province":"string",
     "zip":"string"
  },
- "status":"string"
+ "status":"string",
+ "shippingaddress":{
+    "country":"string",
+    "street1":"string",
+    "street2":"string",
+    "city":"string",
+    "province":"string",
+    "zip":"string"
+ },
 }
