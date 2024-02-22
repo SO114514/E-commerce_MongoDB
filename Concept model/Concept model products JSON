@@ -10,7 +10,7 @@
       "quantity": int32,
       "model": "string"
     }],
-  "categoly": [
+  "category": [
     "string",
     "string",
     "string",
