@@ -1,0 +1,19 @@
+{
+ "_id": {"ObjectId"},
+ "username":"String",
+ "password":"String",
+ "email":"String",
+ "profile":{
+    "firstname":"String",
+    "lastname":"String",
+    "dateofbirth":new Date("<YYYY-mm-dd>"
+ },
+ "address":{
+    "country":"String",
+    "street1":"String",
+    "street2":"String",
+    "city":"String",
+    "Province":"String",
+    "zip":"String"
+ }
+}
