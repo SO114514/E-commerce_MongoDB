@@ -1,0 +1,18 @@
+{
+  "_id": {"ObjectId"},
+  "name": "string",
+  "price": int32,
+  "release": {
+    "$date":new Date("<YYYY-mm-dd>")},
+  "maker": [
+    {
+      "make": "string",
+      "quantity": int32,
+      "model": "string"
+    }],
+  "categoly": [
+    "string",
+    "string",
+    "string",
+    "string"
+  ]}
