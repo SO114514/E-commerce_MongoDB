@@ -12,7 +12,7 @@
         "model": "String"
       }
     ],
-    "categoly": [
+    "category": [
       "String",
       "String",
       "String",
