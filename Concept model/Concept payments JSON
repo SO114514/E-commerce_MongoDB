@@ -9,6 +9,7 @@
         "expirymonth":Int32,
         "expiryyear":Int32,
         "cvv":Int32,
-        "verified":"Boolean"
-    }
+        "verified":Boolean
+    },
+    "status":"verified",
 }
