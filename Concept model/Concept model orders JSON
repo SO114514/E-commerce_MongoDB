@@ -11,6 +11,27 @@
             "discounts": null,
             "insurance": null,
             "includingvat": Int32,
-            "excludingvat": Int32        }
+            "excludingvat": Int32        
+        }
+    ],
+    "shippingaddress":[
+        {
+            "country":"String",
+            "street1":"String",
+            "street2":"String",
+            "city":"String",
+            "province":"String",
+            "zip":"String"
+        }
+    ],
+    "billingorder":[
+        {
+            "country":"String",
+            "street1":"String",
+            "street2":"String",
+            "city":"String",
+            "province":"String",
+            "zip":"String"
+        }
     ]
 }
