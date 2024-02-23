@@ -1,0 +1,16 @@
+{
+    "_id":ObjectId("ObjectId"),
+    "userId":"String",
+    "paymentstatus":"String",
+    "status":"String",
+    "amount": Int32,
+    "items":[
+        {
+            "name":"String",
+            "quantity": Int32,
+            "discounts": null,
+            "insurance": null,
+            "includingvat": Int32,
+            "excludingvat": Int32        }
+    ]
+}
