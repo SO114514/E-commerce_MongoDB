@@ -1,13 +1,14 @@
 {
     "_id": {"ObjectId"},
     "userId":ObjectId("ObjectId"),
-    "method":"string",
+    "method":"String",
     "card":{
-        "type":"string",
-        "number":int32,
-        "name":"string",
-        "expirymonth":int32,
-        "expiryyear":int32,
-        "cvv":int32
+        "type":"String",
+        "number":Int32,
+        "name":"String",
+        "expirymonth":Int32,
+        "expiryyear":Int32,
+        "cvv":Int32,
+        "verified":"Boolean"
     }
 }
