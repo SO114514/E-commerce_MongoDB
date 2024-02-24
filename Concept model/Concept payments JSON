@@ -1,15 +1,16 @@
 {
     "_id": {"ObjectId"},
-    "userid":ObjectId("ObjectId"),
+    "userId":ObjectId("ObjectId"),
     "method":"String",
     "card":{
         "type":"String",
         "number":Int32,
         "name":"String",
+        "expiryday": Int32,
         "expirymonth":Int32,
         "expiryyear":Int32,
         "cvv":Int32,
         "verified":Boolean
     },
-    "status":"verified",
+    "status":"String"
 }
