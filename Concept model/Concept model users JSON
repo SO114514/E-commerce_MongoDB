@@ -1,28 +1,34 @@
 {
- "_id": {"ObjectId"},
- "username":"string",
- "password":"string",
- "email":"string",
- "profile":{
-    "firstname":"string",
-    "lastname":"string",
-    "dateofbirth":new Date("<YYYY-mm-dd>")
- },
- "address":{
-    "country":"string",
-    "street1":"string",
-    "street2":"string",
-    "city":"string",
-    "province":"string",
-    "zip":"string"
- },
- "status":"string",
- "shippingaddress":{
-    "country":"string",
-    "street1":"string",
-    "street2":"string",
-    "city":"string",
-    "province":"string",
-    "zip":"string"
- },
-}
+    "_id": {"ObjectId"},
+    "username":"string",
+    "password":"string",
+    "email":"string",
+    "profile":{
+       "firstname":"string",
+       "lastname":"string",
+       "dateofbirth":new Date("<YYYY-mm-dd>")
+    },
+    "address":{
+       "country":"string",
+       "street1":"string",
+       "street2":"string",
+       "city":"string",
+       "province":"string",
+       "zip":"string"
+    },
+    "status":"string",
+    "shippingaddress":{
+       "country":"string",
+       "street1":"string",
+       "street2":"string",
+       "city":"string",
+       "province":"string",
+       "zip":"string"
+    },
+    "userreview":[
+        {
+            "grade":int32,
+            "comment":"string"
+        }
+    ]
+   }
