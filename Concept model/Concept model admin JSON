@@ -1,0 +1,24 @@
+{
+    "_id":"String",
+    "emp_id":Int32,
+    "dept":"String",
+    "role":"String",
+    "profile":[
+      {
+        "firstname":"String",
+        "lastname":"String",
+        "email":"String",
+        "tel":"String"
+      }
+    ],
+    "address":[
+      {
+        "country":"String",
+        "street1":"String",
+        "street2":"String",
+        "city":"String",
+        "Province":"String",
+        "zip":"String"
+      }
+    ]
+  }
