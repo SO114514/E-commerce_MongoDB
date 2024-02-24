@@ -1,0 +1,1 @@
+db.administration.find({ "profile.n": { $exists: true } })
