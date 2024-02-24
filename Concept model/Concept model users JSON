@@ -1,34 +1,35 @@
 {
     "_id": {"ObjectId"},
-    "username":"string",
-    "password":"string",
-    "email":"string",
+    "username":"String",
+    "password":"String",
+    "email":"String",
     "profile":{
-       "firstname":"string",
-       "lastname":"string",
+       "firstname":"String",
+       "lastname":"String",
        "dateofbirth":new Date("<YYYY-mm-dd>")
     },
     "address":{
-       "country":"string",
-       "street1":"string",
-       "street2":"string",
-       "city":"string",
-       "province":"string",
-       "zip":"string"
+       "country":"String",
+       "street1":"String",
+       "street2":"String",
+       "city":"String",
+       "province":"String",
+       "zip":"String"
     },
-    "status":"string",
+    "status":"String",
     "shippingaddress":{
-       "country":"string",
-       "street1":"string",
-       "street2":"string",
-       "city":"string",
-       "province":"string",
-       "zip":"string"
+       "country":"String",
+       "street1":"String",
+       "street2":"String",
+       "city":"String",
+       "province":"String",
+       "zip":"String"
     },
     "userreview":[
         {
-            "grade":int32,
-            "comment":"string"
+            "product":"String",
+            "grade": Int32,
+            "comment":"String"
         }
     ]
    }
