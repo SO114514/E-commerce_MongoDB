@@ -1,6 +1,6 @@
 {
     "_id":ObjectId("ObjectId"),
-    "userId":"String",
+    "userid":"String",
     "paymentstatus":"String",
     "status":"String",
     "amount": Int32,
