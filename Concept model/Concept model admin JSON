@@ -17,7 +17,7 @@
         "street1":"String",
         "street2":"String",
         "city":"String",
-        "Province":"String",
+        "province":"String",
         "zip":"String"
       }
     ]
