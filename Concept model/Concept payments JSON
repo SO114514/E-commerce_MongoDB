@@ -1,6 +1,6 @@
 {
     "_id": {"ObjectId"},
-    "userId":ObjectId("ObjectId"),
+    "userid":ObjectId("ObjectId"),
     "method":"String",
     "card":{
         "type":"String",
