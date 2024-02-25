@@ -1,0 +1,41 @@
+db.users.insertOne(
+{
+    "username":"BC1",
+    "password":"F3IHGxp)f!RAc*q'kWiB",
+    "email":"brandy.clements@example.com",
+    "profile":{
+       "firstname":"Brandy",
+       "lastname":"Clements",
+       "dateofbirth":new Date("1999-08-12"),
+       "status":"Inactive",
+    },
+    "address":{
+       "country":"United Kingdom",
+       "street1":"Flat 99 Abigail Underpass",
+       "street2":"N/A",
+       "city":"Port Damien",
+       "province":"New Eleanor",
+       "zip":"RG14 2EL"
+    },
+    "shippingaddress":{
+       "country":"United Kingdom",
+       "street1":"Flat 99 Abigail Underpass",
+       "street2":"N/A",
+       "city":"Port Damien",
+       "province":"String",
+       "zip":"RG14 2EL"
+    },
+    "userreview":[
+        {
+            "product":"MSI MPG 321URX QD-OLED",
+            "grade": 9.6,
+            "comment":"Nice quality"
+        }
+    ]
+   }
+)
+
+{
+  acknowledged: true,
+  insertedId: ObjectId('65db514949a33f032fd80946')
+}
