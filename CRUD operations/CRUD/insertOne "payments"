@@ -1,0 +1,22 @@
+db.payments.insertOne(
+{
+    "userId":ObjectId("65db51d849a33f032fd80947"),
+    "method":"Credit",
+    "card":{
+        "type":"AMEX",
+        "number":374299795943741,
+        "name":"CLEMENTS BRANDY",
+        "expiryday": 04,
+        "expirymonth":05,
+        "expiryyear":2027,
+        "cvv":5901,
+        "verified":true
+    },
+    "status":"Processed"
+}
+)
+
+{
+  acknowledged: true,
+  insertedId: ObjectId('65db533849a33f032fd80948')
+}
