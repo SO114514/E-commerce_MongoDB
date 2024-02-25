@@ -3,7 +3,7 @@
     "articleno":355855,
     "price": 2790,
     "release": {
-      "$date":new Date("2023-01-03")},
+      "date":new Date("2023-01-03")},
     "stock":11,
     "maker": [
       {
