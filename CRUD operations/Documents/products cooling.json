@@ -1,0 +1,20 @@
+{
+  "name": "Thermalright Peerless Assasin 120 SE - Black",
+  "articleno":114514,
+  "price": 500,
+  "release": {
+    "$date":new Date("2023-09-07")},
+  "stock":0,
+  "maker": [
+    {
+      "make": "Thermalright",
+      "quantity": 1,
+      "model": "Thermalright Peerless Assasin 120 SE - Black"
+    }
+  ],
+  "category": [
+    "Computer components",
+    "Cooling",
+    "Fan"
+  ]
+}
