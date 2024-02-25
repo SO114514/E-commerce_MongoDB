@@ -1,0 +1,40 @@
+{
+  "_id": {
+    "$oid": "65db690549a33f032fd80952"
+  },
+  "userId": "65db51d849a33f032fd80947",
+  "paymentstatus": "Processed",
+  "status": "Ordered",
+  "amount": 1,
+  "items": [
+    {
+      "name": "MSI MPG 321URX QD-OLED",
+      "articleno": 367547,
+      "quantity": 1,
+      "discounts": null,
+      "insurance": "Applied",
+      "includingvat": 16990,
+      "excludingvat": 13592
+    }
+  ],
+  "shippingaddress": [
+    {
+      "country": "United Kingdom",
+      "street1": "Flat 99 Abigail Underpass",
+      "street2": "N/A",
+      "city": "Port Damien",
+      "province": "New Eleanor",
+      "zip": "RG14 2EL"
+    }
+  ],
+  "billingorder": [
+    {
+      "country": "United Kingdom",
+      "street1": "Flat 99 Abigail Underpass",
+      "street2": "N/A",
+      "city": "Port Damien",
+      "province": "New Eleanor",
+      "zip": "RG14 2EL"
+    }
+  ]
+}
