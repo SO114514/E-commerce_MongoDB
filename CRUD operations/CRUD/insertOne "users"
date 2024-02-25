@@ -22,7 +22,7 @@ db.users.insertOne(
        "street1":"Flat 99 Abigail Underpass",
        "street2":"N/A",
        "city":"Port Damien",
-       "province":"String",
+       "province":"New Eleanor",
        "zip":"RG14 2EL"
     },
     "userreview":[
@@ -37,5 +37,5 @@ db.users.insertOne(
 
 {
   acknowledged: true,
-  insertedId: ObjectId('65db514949a33f032fd80946')
+  insertedId: ObjectId('65db51d849a33f032fd80947')
 }
