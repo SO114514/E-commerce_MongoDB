@@ -1,0 +1,20 @@
+{
+  "name": "ASRock Intel Arc A580 8GB Challenger",
+  "articleno":366033,
+  "price": 2690,
+  "release": {
+    "$date":new Date("2023-10-12")},
+  "stock":3,
+  "maker": [
+    {
+      "make": "ASRock",
+      "quantity": 1,
+      "model": "ASRock Intel Arc A580 8GB Challenger"
+    }
+  ],
+  "category": [
+    "Computer components",
+    "Graphic card",
+    "GPU"
+  ]
+}
