@@ -1,0 +1,20 @@
+{
+    "name": "MSI MPG 321URX QD-OLED",
+    "articleno":367547,
+    "price": 16990,
+    "release": {
+      "$date":new Date("2024-01-11")},
+    "stock":10,
+    "maker": [
+      {
+        "make": "MSI",
+        "quantity": 1,
+        "model": "MSI MPG 321URX QD-OLED"
+      }
+    ],
+    "category": [
+      "Computers & Accessories",
+      "Computer screen",
+      "Monitor"
+    ]
+  }
