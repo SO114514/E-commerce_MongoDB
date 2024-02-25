@@ -1,0 +1,2 @@
+db.createCollection("admin")
+{ ok: 1 }
