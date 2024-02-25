@@ -1,0 +1,20 @@
+{
+  "name": "Corsair RM1000e - ATX 3.0",
+  "articleno":354545,
+  "price": 2149,
+  "release": {
+    "$date":new Date("2023-04-14")},
+  "stock":25,
+  "maker": [
+    {
+      "make": "Corsair",
+      "quantity": 1,
+      "model": "Corsair RM1000e - ATX 3.0"
+    }
+  ],
+  "category": [
+    "Computer components",
+    "Power supply",
+    "PSU"
+  ]
+}
