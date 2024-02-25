@@ -1,0 +1,5 @@
+db.admin.deleteMany({"role":"ordinary staff"}) 
+{ 
+  acknowledged: true, 
+  deletedCount: 3 
+} 
