@@ -1,0 +1,155 @@
+db.products.insertMany([
+{
+  "name": "Thermalright Peerless Assasin 120 SE - Black",
+  "articleno":114514,
+  "price": 500,
+  "release": {
+    "date":new Date("2023-09-07")},
+  "stock":0,
+  "maker": [
+    {
+      "make": "Thermalright",
+      "quantity": 1,
+      "model": "Thermalright Peerless Assasin 120 SE - Black"
+    }
+  ],
+  "category": [
+    "Computer components",
+    "Cooling",
+    "Fan"
+  ]
+},
+{
+  "name": "Intel Core i7-14700K",
+  "articleno":364999,
+  "price": 5390,
+  "release": {
+    "date":new Date("2021-10-25")},
+  "stock":30,
+  "maker": [
+    {
+      "make": "Intel",
+      "quantity": 1,
+      "model": "Intel Core i7-14700K"
+    }
+  ],
+  "category": [
+    "Computer components",
+    "Processor",
+    "CPU"
+  ]
+},
+{
+  "name": "ASRock Intel Arc A580 8GB Challenger",
+  "articleno":366033,
+  "price": 2690,
+  "release": {
+    "date":new Date("2023-10-12")},
+  "stock":3,
+  "maker": [
+    {
+      "make": "ASRock",
+      "quantity": 1,
+      "model": "ASRock Intel Arc A580 8GB Challenger"
+    }
+  ],
+  "category": [
+    "Computer components",
+    "Graphic card",
+    "GPU"
+  ]
+},
+{
+  "name": "MSI MPG 321URX QD-OLED",
+  "articleno":367547,
+  "price": 16990,
+  "release": {
+    "date":new Date("2024-01-11")},
+  "stock":10,
+  "maker": [
+    {
+      "make": "MSI",
+      "quantity": 1,
+      "model": "MSI MPG 321URX QD-OLED"
+    }
+  ],
+  "category": [
+    "Computers accessories",
+    "Computer screen",
+    "Monitor"
+  ]
+},
+{
+  "name": "ASUS ROG STRIX B760-F GAMING WIFI",
+  "articleno":355855,
+  "price": 2790,
+  "release": {
+    "date":new Date("2023-01-03")},
+  "stock":11,
+  "maker": [
+    {
+      "make": "ASUS",
+      "quantity": 1,
+      "model": "ASUS ROG STRIX B760-F GAMING WIFI"
+    }
+  ],
+  "category": [
+    "Computer components",
+    "Motherboard",
+    "Intel",
+    "Socket 1700 Raptor Lake"
+  ]
+},
+{
+  "name": "Corsair RM1000e - ATX 3.0",
+  "articleno":354545,
+  "price": 2149,
+  "release": {
+    "date":new Date("2023-04-14")},
+  "stock":25,
+  "maker": [
+    {
+      "make": "Corsair",
+      "quantity": 1,
+      "model": "Corsair RM1000e - ATX 3.0"
+    }
+  ],
+  "category": [
+    "Computer components",
+    "Power supply",
+    "PSU"
+  ]
+},
+{
+  "name": "Kingston KC3000 2TB",
+  "articleno":343247,
+  "price": 1599,
+  "release": {
+    "date":new Date("2021-10-25")},
+  "stock":30,
+  "maker": [
+    {
+      "make": "Kingston",
+      "quantity": 1,
+      "model": "Kingston KC3000 2TB"
+    }
+  ],
+  "category": [
+    "Computer components",
+    "Storage"
+  ]
+}
+])
+
+{
+  acknowledged: true,
+  insertedIds: {
+    '0': ObjectId('65db77322123cb3a8d95a62b'),
+    '1': ObjectId('65db77322123cb3a8d95a62c'),
+    '2': ObjectId('65db77322123cb3a8d95a62d'),
+    '3': ObjectId('65db77322123cb3a8d95a62e'),
+    '4': ObjectId('65db77322123cb3a8d95a62f'),
+    '5': ObjectId('65db77322123cb3a8d95a630'),
+    '6': ObjectId('65db77322123cb3a8d95a631')
+  }
+}
