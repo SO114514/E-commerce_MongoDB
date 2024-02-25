@@ -1,0 +1,8 @@
+use ecommercedevops
+switched to db ecommercedevops
+db.users.insertOne({"test":"test"})
+{
+  acknowledged: true,
+  insertedId: ObjectId('65db399c49a33f032fd80943')
+}
+ecommercedevops>
