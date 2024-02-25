@@ -1,0 +1,19 @@
+{
+  "name": "Kingston KC3000 2TB",
+  "articleno":343247,
+  "price": 1599,
+  "release": {
+    "$date":new Date("2021-10-25")},
+  "stock":30,
+  "maker": [
+    {
+      "make": "Kingston",
+      "quantity": 1,
+      "model": "Kingston KC3000 2TB"
+    }
+  ],
+  "category": [
+    "Computer components",
+    "Storage"
+  ]
+}
