@@ -4,7 +4,7 @@
     "articleno":Int32,
     "price": Int32,
     "release": {
-      "$date":new Date("<YYYY-mm-dd>")},
+      "date":new Date("<YYYY-mm-dd>")},
     "stock": Int32,
     "maker": [
       {
