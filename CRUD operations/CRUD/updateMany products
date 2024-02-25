@@ -1,0 +1,11 @@
+db.products.updateMany(
+  {"category":"Computer components"},
+  {$set:{stock:10}})
+
+{
+  acknowledged: true,
+  insertedId: null,
+  matchedCount: 6,
+  modifiedCount: 6,
+  upsertedCount: 0
+}
