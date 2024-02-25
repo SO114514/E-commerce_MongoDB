@@ -1,0 +1,8 @@
+db.admin.deleteOne({"role":"ordinary staff"}) 
+{ 
+
+  acknowledged: true, 
+
+  deletedCount: 1 
+
+}
