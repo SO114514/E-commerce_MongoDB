@@ -1,0 +1,23 @@
+db.products.find({ "category": { $ne: "Computer components" } })
+{
+  _id: ObjectId('65db77322123cb3a8d95a62e'),
+  name: 'MSI MPG 321URX QD-OLED',
+  articleno: 367547,
+  price: 16990,
+  release: {
+    date: 2024-01-11T00:00:00.000Z
+  },
+  stock: 9,
+  maker: [
+    {
+      make: 'MSI',
+      quantity: 1,
+      model: 'MSI MPG 321URX QD-OLED'
+    }
+  ],
+  category: [
+    'Computers accessories',
+    'Computer screen',
+    'Monitor'
+  ]
+}
