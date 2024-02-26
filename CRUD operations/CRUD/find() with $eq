@@ -1,0 +1,22 @@
+db.products.find({ "maker.make": { $eq: "Kingston" } })
+{
+  _id: ObjectId('65db77322123cb3a8d95a631'),
+  name: 'Kingston KC3000 2TB',
+  articleno: 343247,
+  price: 1599,
+  release: {
+    date: 2021-10-25T00:00:00.000Z
+  },
+  stock: 10,
+  maker: [
+    {
+      make: 'Kingston',
+      quantity: 1,
+      model: 'Kingston KC3000 2TB'
+    }
+  ],
+  category: [
+    'Computer components',
+    'Storage'
+  ]
+}
